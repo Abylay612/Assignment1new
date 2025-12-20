@@ -21,7 +21,6 @@ public class Main {
         System.out.println(" ");
         System.out.println("University:");
         University university = new University("Astana IT University", "Astana, Mangilik El Avenue, 55/11", 2019);
-        System.out.println(university.displayInfo());
         System.out.println("ID:" + university.getUni_id());
         System.out.println("Name" + university.getName());
         System.out.println("Location" + university.getLocation());
