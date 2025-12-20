@@ -58,7 +58,7 @@ public class Professor {
     }
 
     //toString
-    public String ToString(){
+    public String displayInfo(){
         return "ID:" + employee_id + ", FirstName:" + first_name + ", LastName:" + last_name + ", Department:" + department + ", Office:" + office_number;
     }
 }

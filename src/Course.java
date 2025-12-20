@@ -48,7 +48,7 @@ public class Course {
     }
 
     //ToString
-    public String ToString(){
+    public String displayInfo(){
         return "ID:" + crs_id + ", CourseName:" + crs_name + ", Credits:" + crs_credits + ", Semester:" + semester;
     }
 }

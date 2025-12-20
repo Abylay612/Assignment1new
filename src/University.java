@@ -48,7 +48,7 @@ public class University {
     }
 
     //ToString
-    public String toString(){
+    public String displayInfo(){
         return "ID:" + uni_id + ", Name:" + uni_name + ", Location:" + location + ", Year:" + established_year;
     }
 }
