@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Year:" + university.getYear());
 
         System.out.println(" ");
-        System.out.println("displayInfo method");
+        System.out.println("displayInfo method:");
         System.out.println(university.displayInfo());
 
         System.out.println(" ");
@@ -53,7 +53,7 @@ public class Main {
 
         //Comparison
         System.out.println(" ");
-        System.out.println("Comparison");
+        System.out.println("Comparison:");
         if (course[0].getCredits() > course[5].getCredits()) {
             System.out.println(course[0].getCrs_name() + " has more credits than " + course[5].getCrs_name());
         } else {
