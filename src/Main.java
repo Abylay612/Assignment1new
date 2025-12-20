@@ -1,13 +1,13 @@
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("Courses:");
         Course[] course = new Course[6];
-        course[0] = new Course("Calculus 3",5,2);
-        course[1] = new Course("Database Management System",5,2);
-        course[2] = new Course("Discrete Mathematics",5,2);
-        course[3] = new Course("Foreign Language 2",5,2);
-        course[4] = new Course("Object Oriented Programming",5,2);
-        course[5] = new Course("Physical Education 2",2,2);
+        course[0] = new Course("Calculus 3", 5, 2);
+        course[1] = new Course("Database Management System", 5, 2);
+        course[2] = new Course("Discrete Mathematics", 5, 2);
+        course[3] = new Course("Foreign Language 2", 5, 2);
+        course[4] = new Course("Object Oriented Programming", 5, 2);
+        course[5] = new Course("Physical Education 2", 2, 2);
         System.out.println(course[0].displayInfo());
         System.out.println(course[1].displayInfo());
         System.out.println(course[2].displayInfo());
@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println(" ");
         System.out.println("University:");
-        University university = new University("Astana IT University","Astana, Mangilik El Avenue, 55/11",2019);
+        University university = new University("Astana IT University", "Astana, Mangilik El Avenue, 55/11", 2019);
         System.out.println(university);
         System.out.println("ID:" + university.getUni_id());
         System.out.println("Name" + university.getName());
@@ -54,17 +54,15 @@ public class Main {
         //Comparison
         System.out.println(" ");
         System.out.println("Comparison");
-        if (course[0].getCredits() > course[5].getCredits()){
+        if (course[0].getCredits() > course[5].getCredits()) {
             System.out.println(course[0].getCrs_name() + " has more credits than " + course[5].getCrs_name());
-        }
-        else{
+        } else {
             System.out.println(course[5].getCrs_name() + " has more or equal credits than " + course[0].getCrs_name());
         }
 
-        if (course[0].getCrs_id() > course[5].getCrs_id()){
+        if (course[0].getCrs_id() > course[5].getCrs_id()) {
             System.out.println(course[0].getCrs_name() + " has greater id than " + course[5].getCrs_name());
-        }
-        else{
+        } else {
             System.out.println(course[5].getCrs_name() + " has greater id than " + course[0].getCrs_name());
         }
     }
