@@ -51,4 +51,5 @@ public class Course {
     public String displayInfo(){
         return "ID:" + crs_id + ", CourseName:" + crs_name + ", Credits:" + crs_credits + ", Semester:" + semester;
     }
+
 }

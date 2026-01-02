@@ -1,9 +1,14 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class University {
     private final int uni_id;
     private static int id_gen = 1;
     private String uni_name;
     private String location;
     private int established_year;
+
+    private List<Professor> professors = new ArrayList<>();
 
     //constructors
     University(){
