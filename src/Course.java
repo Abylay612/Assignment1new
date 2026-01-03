@@ -49,7 +49,6 @@ public class Course {
 
     //displayInfo
     public String displayInfo(){
-        return "ID:" + crs_id + ", CourseName:" + crs_name + ", Credits:" + crs_credits + ", Semester:" + semester;
+        return "ID:" + getCrs_id() + ", CourseName:" + getCrs_name() + ", Credits:" + getCredits() + ", Semester:" + getSemester();
     }
-
 }

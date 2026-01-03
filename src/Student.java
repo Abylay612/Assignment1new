@@ -28,7 +28,9 @@ public class Student extends Person{
 
     //setters
     public void setGpa(double gpa){
-        this.gpa = gpa;
+        if (gpa >= 0.0 && gpa <= 4.0){
+            this.gpa = gpa;
+        }
     }
 
     public void setYear_of_study(int year_of_study){

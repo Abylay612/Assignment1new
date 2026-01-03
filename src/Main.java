@@ -11,11 +11,6 @@ public class Main {
         for (int i = 0; i < 5; i++){
             System.out.println(course[i].displayInfo());
         }
-        System.out.println("ID:" + course[5].getCrs_id());
-        System.out.println("CourseName:" + course[5].getCrs_name());
-        System.out.println("Credits:" + course[5].getCredits());
-        System.out.println("Semester:" + course[5].getSemester());
-
 
         System.out.println(" ");
         System.out.println("University:");
@@ -46,10 +41,8 @@ public class Main {
         System.out.println("Office:" + professor[5].getOffice_number());
 
         //Student
+        Student student = new Student("Maksim","Maksimov",3.66,2024);
 
-
-
-        System.out.println(student.getFullName());
 
         //Comparison
         System.out.println(" ");
