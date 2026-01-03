@@ -7,6 +7,9 @@ public abstract class Person {
         setLast_name(last_name);
     }
 
+    //role
+    public  abstract String getRole();
+
     //getters
     public String getFirstName(){
         return first_name;

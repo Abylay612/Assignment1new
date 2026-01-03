@@ -11,6 +11,12 @@ public class Student extends Person{
         setYear_of_study(year_of_study);
     }
 
+    //role
+    @Override
+    public String getRole(){
+        return "Studying";
+    }
+
     //getters
     public double getGpa(){
         return gpa;

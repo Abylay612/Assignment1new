@@ -46,8 +46,8 @@ public class Main {
         System.out.println("Office:" + professor[5].getOffice_number());
 
         //Student
-        Student student = new Student("Aleksey", "Shevcov",3.99,1);
-        System.out.println(student.toString());
+
+
 
         System.out.println(student.getFullName());
 

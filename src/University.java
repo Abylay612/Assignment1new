@@ -8,8 +8,6 @@ public class University {
     private String location;
     private int established_year;
 
-    private List<Professor> professors = new ArrayList<>();
-
     //constructors
     University(){
         uni_id = id_gen++;

@@ -12,6 +12,12 @@ public class Professor extends Person {
         setOffice_number(office_number);
     }
 
+    //role
+    @Override
+    public String getRole() {
+        return "Teaching";
+    }
+
     //getters
     public int getEmployee_id(){
         return employee_id;
