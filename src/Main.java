@@ -74,7 +74,7 @@ public class Main {
 
         //Filtering data
         System.out.println(" ");
-        System.out.println("Filtering data:");
+        System.out.println("Filtering data: ");
         ArrayList <Student> topStudents = new ArrayList<>();
         for (int i = 0; i < 6; i++){
             if (student[i].getGpa() >= 3.5){
